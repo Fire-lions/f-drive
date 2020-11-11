@@ -110,9 +110,11 @@ body {
   }
 }
 .drive-search-bar {
-  width: 200px;
+  width: 35px;
+	
   border-radius: 10px;
   padding: 5px;
+	background-color: transparent;
   height: 50px;
   border: 2px solid grey;
   position: absolute;
@@ -126,6 +128,9 @@ body {
   padding-left: 40px;
   background-size: 35px;
   background-position: left;
+}
+.drive-search-bar:focus {
+	width: 100px;
 }
 .user-content{
  border: 0px ;
