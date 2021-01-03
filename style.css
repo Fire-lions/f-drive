@@ -110,7 +110,7 @@ body {
   }
 }
 .drive-search-bar {
-  width: 35px;
+  width: 200px;
 	
   border-radius: 10px;
   padding: 5px;
@@ -130,7 +130,7 @@ body {
   background-position: left;
 }
 .drive-search-bar:focus {
-	width: 100px;
+box-shadow : 0px 0px 10px 10px;
 }
 .user-content{
  border: 0px ;
